@@ -1,0 +1,1 @@
+gcc HelloWorldGTK.c -o HelloWorldGTK $(pkg-config --cflags gtk4 --libs gtk4)
